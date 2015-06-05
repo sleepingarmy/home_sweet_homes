@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   namespace :admin do
-    get '/' => 'base#admin'
+    get '/' => 'base#index'
   end
 end
